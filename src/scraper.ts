@@ -18,7 +18,7 @@ export const scraper: ScraperTypes = {
   },
   async start() {
     const url = await this.getFromStdIn();
-    const result = await this.getFromAPI(url); // なぜawaitがいるのか
+    const result = await this.getFromAPI(url);
     const formatedResult = formatter.format(result);
     return formatedResult;
   },
