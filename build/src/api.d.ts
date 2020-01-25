@@ -1,3 +1,1 @@
-export declare const api: {
-    get(url: string): void;
-};
+export declare function get(url: string): Promise<import("axios").AxiosResponse<any>>;

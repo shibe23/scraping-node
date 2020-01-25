@@ -21,8 +21,12 @@
     "posttest": "npm.cmd run check"
   },
   "devDependencies": {
+    "@types/axios": "^0.14.0",
     "@types/node": "^10.17.13",
     "gts": "^1.1.2",
     "typescript": "~3.7.0"
+  },
+  "dependencies": {
+    "axios": "^0.19.2"
   }
 }

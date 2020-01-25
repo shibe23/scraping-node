@@ -1,6 +1,5 @@
-export interface FormatData {
-    data: string;
+interface FormatterTypes {
+    format: (str: string) => string;
 }
-export declare const formatter: {
-    format(data: any): void;
-};
+export declare const formatter: FormatterTypes;
+export {};
